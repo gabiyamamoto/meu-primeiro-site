@@ -1,13 +1,21 @@
 /*Reset do CSS*/
 * {
-    margin: 12px;
-    padding: 1px;
+    margin: 15px;
+    padding: 2px;
 }
 
-h2, p {
+h1 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+    font-size: larger;
+}
+
 header {
-    background-color: rgb(204, 255, 242);
+    background-color: rgb(115, 200, 218);
+    color: rgb(255, 255, 231);
+    font-style: oblique;
+    padding: 35px;
 }
