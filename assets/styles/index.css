@@ -1,0 +1,13 @@
+/*Reset do CSS*/
+* {
+    margin: 12px;
+    padding: 1px;
+}
+
+h2, p {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(204, 255, 242);
+}
