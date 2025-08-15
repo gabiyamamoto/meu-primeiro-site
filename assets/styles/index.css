@@ -18,13 +18,12 @@ body {
 header {
     background-color: rgb(105, 132, 221);
     color:  rgb(255, 255, 255);
-    margin: 20px;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
 }
 
 main {
-    background-color: rgb(250, 248, 255);
+    background-color: rgb(255, 255, 255);
     flex: 1;
     padding: 48px 38px;
     width: 100%;
@@ -38,24 +37,26 @@ about-section {
     padding: 40px;
     border-radius: 15px;
     margin-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 #titulo-sobre-mim {
-    font-size: 23px;
+    font-size: 25px;
     border-bottom: 2px solid rgb(129, 143, 218);
+    padding-top: 7px;
     padding-bottom: 7px;
+    padding-inline-start: 2px;
 }
 
 .texto-sobre-mim {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 10px;
     padding-inline: 15px;
 }
 
 hobbies {
     display: block;
-    background-color: rgb(215, 220, 253);
+    background-color:  rgb(215, 220, 253);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
@@ -68,6 +69,7 @@ hobbies {
     font-size: 23px;
     border-bottom: 2px solid rgb(129, 143, 218);
     padding-bottom: 7px;
+    padding-top: 7px;
 }
 
 ul {
@@ -79,7 +81,7 @@ ul {
 }
 
 li {
-    background-color: rgb(240, 243, 255);
+    background-color: rgb(255, 255, 255);
     padding: 12px;
     border-left: 4px solid  rgb(129, 143, 218);
     font-size: 16px;
@@ -87,7 +89,47 @@ li {
 }
 
 li:hover {
-    background-color: aliceblue;
+    background-color: rgb(249, 248, 255);
     transform: translateX(9px);
-    transition: all 0.9s ease;
+    transition: all 0.5s ease;
+}
+
+contact {
+    display: block;
+    background-color:  rgb(215, 220, 253);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
+
+contact h2 {
+    margin-bottom: 8;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+contact a {
+    color:rgb(143, 128, 211);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem;
+    border: 2px solid rgb(143, 128, 211);
+    border-radius: 25px;
+}
+
+a:hover {
+    background-color: rgb(143, 128, 211);
+    color:rgb(255, 255, 255);
+    transform: translateX(-2px);
 }
